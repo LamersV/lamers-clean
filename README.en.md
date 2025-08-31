@@ -2,10 +2,6 @@
 
 This package provides TypeScript utilities for string cleaning and formatting, lightweight random generators, common Brazilian data validations, and simple HTML and URI helpers. It aims to offer small, straightforward calls for frequent tasks in both back-end and front-end projects. Source is written in TypeScript and the published artifact exposes the compiled output under `dist`. The distribution follows an exports map for the main module as well as direct per-module imports.
 
-Repository: https://github.com/LamersV/lamers-clean  
-Homepage: https://github.com/LamersV/lamers-clean#readme  
-Version: 1.0.0
-
 ## Installation
 
 The package is published on GitHub Packages under the `@lamersv` scope. You must configure an access token with at least `read:packages` permission and add your authentication to `.npmrc`. Create or update the `.npmrc` file in your project pointing the `@lamersv` scope to GitHub’s registry.

@@ -2,10 +2,6 @@
 
 Este pacote fornece funções utilitárias em TypeScript para limpeza e formatação de strings, geração de códigos, validações comuns de dados brasileiros e manipulação simples de HTML e URI. O objetivo é oferecer chamadas pequenas e diretas para tarefas recorrentes de back-end e front-end. O código-fonte está em TypeScript e a publicação expõe a saída compilada em `dist`. A distribuição segue o mapa de exports para o módulo principal e também para importação direta de módulos específicos.
 
-Repositório: https://github.com/LamersV/lamers-clean  
-Homepage: https://github.com/LamersV/lamers-clean#readme  
-Versão: 1.0.0
-
 ## Instalação
 
 Este pacote é publicado no GitHub Packages sob o escopo `@lamersv`. Para instalar é necessário configurar um token de acesso pessoal com permissão de leitura de packages e adicionar sua autenticação no `.npmrc`. Em um ambiente típico, crie ou ajuste o arquivo `.npmrc` no seu projeto apontando para o registro do GitHub:
