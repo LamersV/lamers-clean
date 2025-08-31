@@ -1,0 +1,43 @@
+{
+  "name": "@lamers/clean",
+  "version": "1.0.0",
+  "description": "A simple node string parser",
+  "main": "dist/index.js",
+  "author": "LamersV",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build",
+    "pub": "yarn publish --registry https://npm.pkg.github.com"
+  },
+  "publishConfig": {
+    "@lamers:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsc-alias": "^1.8.16",
+    "typescript": "^5.9.2"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./modules/*": {
+      "import": "./dist/modules/*.js",
+      "require": "./dist/modules/*.js",
+      "default": "./dist/modules/*.js",
+      "types": "./dist/modules/*.d.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamersV/lamers-clean.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LamersV/lamers-clean/issues"
+  },
+  "homepage": "https://github.com/LamersV/lamers-clean#readme"
+}

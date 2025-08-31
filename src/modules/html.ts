@@ -1,0 +1,65 @@
+const entityMap: Record<string, string> = {
+  '&nbsp;': ' ',
+  '&lt;': '<',
+  '&gt;': '>',
+  '&amp;': '&',
+  '&quot;': '"',
+  '&apos;': "'",
+  '&cent;': '¢',
+  '&pound;': '£',
+  '&yen;': '¥',
+  '&euro;': '€',
+  '&copy;': '©',
+  '&reg;': '®',
+  '&deg;': '°',
+  '&micro;': 'µ',
+  '&para;': '¶',
+  '&middot;': '·',
+  '&ndash;': '–',
+  '&mdash;': '—',
+  '&hellip;': '…',
+  '&rsquo;': '’',
+  '&lsquo;': '‘',
+  '&rdquo;': '”',
+  '&ldquo;': '“',
+  '&tilde;': '˜',
+  '&trade;': '™',
+  '&aacute;': 'á',
+  '&eacute;': 'é',
+  '&iacute;': 'í',
+  '&oacute;': 'ó',
+  '&uacute;': 'ú',
+  '&agrave;': 'à',
+  '&egrave;': 'è',
+  '&igrave;': 'ì',
+  '&ograve;': 'ò',
+  '&ugrave;': 'ù',
+  '&atilde;': 'ã',
+  '&otilde;': 'õ',
+  '&acirc;': 'â',
+  '&ecirc;': 'ê',
+  '&icirc;': 'î',
+  '&ocirc;': 'ô',
+  '&ucirc;': 'û',
+  '&ccedil;': 'ç',
+  '&Ccedil;': 'Ç',
+  '&Atilde;': 'Ã',
+  '&Otilde;': 'Õ',
+  '&Eacute;': 'É',
+  '&euml;': 'ë',
+  '&uuml;': 'ü',
+  '&Oacute;': 'Ó',
+  '&iquest;': '¿',
+  '&auml;': 'ä',
+  '&ouml;': 'ö',
+  '&ntilde;': 'ñ'
+};
+
+export function decodeHTML(str: string): string {
+  // const text = str
+  //   .replace(/<\/?p>/gi, '')
+  //   .replace(/<br\s*\/?>/gi, '\n')
+  //   .replace(/\s+$/, '');
+
+  return str.replace(/&[a-zA-Z0-9#]+;/g, match => entityMap[match] || match);
+}
