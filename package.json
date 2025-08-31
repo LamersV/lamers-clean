@@ -1,5 +1,5 @@
 {
-  "name": "@lamers/clean",
+  "name": "@lamersv/clean",
   "version": "1.0.0",
   "description": "A simple node string parser",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "pub": "yarn publish --registry https://npm.pkg.github.com"
   },
   "publishConfig": {
-    "@lamers:registry": "https://npm.pkg.github.com"
+    "@lamersv:registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
