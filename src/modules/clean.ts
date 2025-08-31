@@ -1,4 +1,4 @@
-import { CleanOptions, ReplaceOptions } from "src/types";
+import { CleanOptions, ReplaceOptions } from "../types";
 
 export const cleanString = (str: string, options?: Partial<CleanOptions>): string => {
   const _options: CleanOptions = {

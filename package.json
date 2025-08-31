@@ -15,7 +15,6 @@
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
-    "tsc-alias": "^1.8.16",
     "typescript": "^5.9.2"
   },
   "exports": {

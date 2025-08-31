@@ -1,4 +1,4 @@
-import { CapitalizeOptions } from "src/types";
+import { CapitalizeOptions } from "../../types";
 
 export const capitalize = (text: string, options?: CapitalizeOptions): string => {
   const joiners = ['da', 'de', 'do', 'dos', 'das', 'e', 'em', 'd', 'na', 'no', 'por', 'nas', 'nos'];
