@@ -148,4 +148,4 @@ The package exposes the main entry `./dist/index.js` and `./modules/*` for direc
 
 ## License
 
-MIT. See the license file in the official repository.
+MIT. See the license file in the official repository. [LICENSE](./LICENSE)

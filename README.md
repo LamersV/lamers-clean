@@ -148,4 +148,4 @@ O pacote expõe o ponto de entrada padrão `./dist/index.js` e também `./module
 
 ## Licença
 
-MIT. Consulte o arquivo de licença no repositório oficial.
+MIT. Consulte o arquivo de licença no repositório oficial. [LICENSE](./LICENSE)
