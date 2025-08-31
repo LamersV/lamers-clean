@@ -1,6 +1,6 @@
 {
   "name": "@lamersv/clean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple node string parser",
   "main": "dist/index.js",
   "author": "LamersV",
